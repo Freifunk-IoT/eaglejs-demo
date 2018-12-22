@@ -125,10 +125,4 @@ a {
   background-position: center bottom;
   background-repeat: no-repeat;
 }
-
-.github-star {
-  display: block;
-  margin: 0 auto;
-  margin-top: -10px;
-}
 </style>
