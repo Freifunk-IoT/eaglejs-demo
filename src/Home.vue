@@ -3,7 +3,6 @@
   .content
     h1
       span.logo
-      span Freifunk-IoT
     h2 An open IoT-Sensor Ecosystem
     p.
       Freifunk-IoT ist ein Projekt, was auf Basis der Freifunk-Netze eine offene,
@@ -116,9 +115,10 @@ a {
 }
 
 .logo {
+  margin-bottom: 40px;
   display: inline-block;
-  width: 130px;
-  height:90px;
+  width: 300px;
+  height:300px;
   margin-right: 0.1em;
   background-image: url(./logo.svg);
   background-size: contain;
