@@ -36,7 +36,7 @@ export default {
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 #ffiotSlideshow{
   .eg-slideshow{
-    font-family: 'Raleway';
+    font-family: 'Montserrat', sans-serif;
     background-color: #eef;
     .eg-slide{
       .eg-slide-content{
