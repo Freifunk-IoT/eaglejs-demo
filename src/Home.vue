@@ -3,20 +3,15 @@
   .content
     h1
       span.logo
-      span Eagle
-      span.grey .js
-    h2 A slideshow framework for hackers
-
-    iframe.github-star(src="https://ghbtns.com/github-btn.html?user=zulko&repo=eagle.js&type=star&count=true&size=large"
-                       frameborder="0" scrolling="0" width="160px" height="30px")
+      span Freifunk-IoT
+    h2 An open IoT-Sensor Ecosystem
     p.
-      Eagle.js is a web-based slideshow framework for Vue.js.
-      It supports animations, themes, interactive widgets (for web demos),
-      and makes it easy to reuse components, slides and styles across presentations.
+      Freifunk-IoT ist ein Projekt, was auf Basis der Freifunk-Netze eine offene,
+      verteilte Plattform für DIY- und andere IoT-Sensoren schaffen will.
 
     p.
-      Most of all, Eagle aims at offering a simple and very hackable API so you
-      can get off the beaten tracks and craft the slideshows you really want.
+      Ziel ist es, den Einstieg in die Welt der Sensorik zu vereinfachen,
+      sowie eine offene, selfhosted Plattform mit vielen Schnittstellen zu bieten.
 
     .thumbnails
       .box-card(v-for='slideshow in slideshows')
@@ -67,7 +62,8 @@ export default {
 
 h1, h2, h3, h4, p {
   font-weight: normal;
-  font-family: 'Patrick Hand SC'
+  /* font-family: 'Patrick Hand SC'*/
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
