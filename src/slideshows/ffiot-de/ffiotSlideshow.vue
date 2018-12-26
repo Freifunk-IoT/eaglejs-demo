@@ -8,10 +8,22 @@
       p @adnidor, @hibas123, @margau_me
 
     slide(enter='bounceInRight' leave='fadeOut')
-      h3 Hey modify me !
+      h3 Motivation
       p.
         Come on modify me ! If you are running the development server,
         you will see the changes take effect immediately
+
+    slide(enter='bounceInRight' leave='fadeOut')
+      h3 Idee
+      p.
+          Come on modify me ! If you are running the development server,
+          you will see the changes take effect immediately
+
+    slide(enter='bounceInRight' leave='fadeOut')
+      h3 Konzept
+      p.
+          Come on modify me ! If you are running the development server,
+          you will see the changes take effect immediately
 
     slide(enter='bounceInRight' leave='fadeOut')
       h2 Mitmachen
