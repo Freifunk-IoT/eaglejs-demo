@@ -13,10 +13,16 @@
         Come on modify me ! If you are running the development server,
         you will see the changes take effect immediately
 
-    slide(enter='fadeIn')
-      h3 Want cool effects?
-      p.
-        Code your own, or try stealing for the other slideshows !
+    slide(enter='bounceInRight' leave='fadeOut')
+      h2 Mitmachen
+      ul
+        li github.com/freifunk-IoT
+        li freifunk-iot@lists.freifunk-stuttgart.de
+
+    slide(enter='bounceInRight' leave='fadeOut')
+      h2 Vielen Dank für eure Aufmerksamkeit!
+      h3 Besucht uns an unserem Projekttisch!
+
 </template>
 
 <script>
