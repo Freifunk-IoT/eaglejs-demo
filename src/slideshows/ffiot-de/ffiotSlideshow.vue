@@ -9,27 +9,49 @@
 
     slide(enter='bounceInRight' leave='fadeOut')
       h3 Motivation
-      p.
-        Come on modify me ! If you are running the development server,
-        you will see the changes take effect immediately
+      h4.
+        "Ich bin der Meinung, wir brauchen mehr interne Dienste"
+      p @adnidor, irgendwann im Sommer beim FFS
+      h4 Wie kann Freifunk mehr sein, als "nur" Transit?
 
     slide(enter='bounceInRight' leave='fadeOut')
       h3 Idee
-      p.
-        Come on modify me ! If you are running the development server,
-        you will see the changes take effect immediately
+      h4.
+        Wie wäre es, das Freifunk-Netz für selbstgebaute Sensoren zu nutzen?
 
     slide(enter='bounceInRight' leave='fadeOut')
       h3 Konzept
       p.
-        Come on modify me ! If you are running the development server,
-        you will see the changes take effect immediately
+        Wir wollen eine offene Plattform schaffen, mit der jeder leicht in die IoT-Welt - insbesondere für Sensoren - einsteigen kann.
+      p.
+        Dazu gehört sowohl Hardware mit Anleitungen, Workshops etc., als auch das Backend, welches Daten sammelt und bereitstellt.
 
     slide(enter='bounceInRight' leave='fadeOut')
-      h3 Module
-      p.
-        Come on modify me ! If you are running the development server,
-        you will see the changes take effect immediately
+      h3 Projektumfang
+      h4 Hardware
+      ul
+        li ESP8266/ESP32
+        li Bosch XDK
+        li Raspberry PI
+        li ...
+
+    slide(enter='bounceInRight' leave='fadeOut')
+      h3 Projektumfang
+      h4 Backend
+      ul
+        li "Data Sink"
+        li "Data Access" (APIs/Schnittstellen)
+        li Authentication
+        li Federation
+
+    slide(enter='bounceInRight' leave='fadeOut')
+      h3 Projektumfang
+      h4 Dokumentation
+      ul
+        li Tutorials
+        li Hard- und Softwareexamples
+        li PCB's
+        li Workshops
 
     slide(enter='bounceInRight' leave='fadeOut')
       h3 Backend
