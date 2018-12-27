@@ -99,6 +99,11 @@
         li Raspberry Pi
 
     slide(enter='fadeIn' leave='fadeOut')
+      h3 Hardware
+      h4 Fertig designte Platinen
+      img(src='./esp03_bme280_1.JPG')
+
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Ausblick
       ul
         li Mehr Hardware
