@@ -45,9 +45,6 @@
         li Federation
 
     slide(enter='bounceInRight' leave='fadeOut')
-      h2 Demo
-
-    slide(enter='bounceInRight' leave='fadeOut')
       h3 Projektumfang
       h4 Dokumentation
       ul
@@ -55,6 +52,9 @@
         li Hard- und Softwareexamples
         li PCB's
         li Workshops
+
+    slide(enter='bounceInRight' leave='fadeOut')
+      h2 Demo
 
     slide(enter='bounceInRight' leave='fadeOut')
       h3 Backend
