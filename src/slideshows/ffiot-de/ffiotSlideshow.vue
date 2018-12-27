@@ -96,10 +96,18 @@
         li Ausbau des Backends
 
     slide(enter='fadeIn' leave='fadeOut')
+      h2 Wer sind wir?
+      ul
+        li margau: @margau on Twitter (DECT: ????)
+        li Hibas123: @hibas123 on Twitter (DECT: ????)
+        li adnidor: @adnidor@chaos.social on Mastodon (DECT: 3677)
+
+    slide(enter='fadeIn' leave='fadeOut')
       h2 Mitmachen
       ul
-        li github.com/freifunk-IoT
+        li github.com/freifunk-iot
         li freifunk-iot@lists.freifunk-stuttgart.de
+        li www.freifunk-iot.de
 
     slide(enter='fadeIn' leave='fadeOut')
       h2 Vielen Dank für eure Aufmerksamkeit!
