@@ -7,26 +7,26 @@
       h4 Wie geht das?
       p @adnidor, @hibas123, @margau_me
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Motivation
       h4.
         "Ich bin der Meinung, wir brauchen mehr interne Dienste"
       p @adnidor, irgendwann im Sommer beim FFS
       h4 Wie kann Freifunk mehr sein, als "nur" Transit?
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Idee
       h4.
         Wie wäre es, das Freifunk-Netz für selbstgebaute Sensoren zu nutzen?
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Konzept
       p.
         Wir wollen eine offene Plattform schaffen, mit der jeder leicht in die IoT-Welt - insbesondere für Sensoren - einsteigen kann.
       p.
         Dazu gehört sowohl Hardware mit Anleitungen, Workshops etc., als auch das Backend, welches Daten sammelt und bereitstellt.
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Projektumfang
       h4 Hardware
       ul
@@ -43,6 +43,9 @@
         li "Data Access" (APIs/Schnittstellen)
         li Authentication
         li Federation
+
+    slide(enter='bounceInRight' leave='fadeOut')
+      h2 Demo
 
     slide(enter='bounceInRight' leave='fadeOut')
       h3 Projektumfang
