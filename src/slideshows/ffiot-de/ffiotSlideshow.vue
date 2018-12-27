@@ -63,9 +63,28 @@
 
     slide(enter='bounceInRight' leave='fadeOut')
       h3 Hardware
-      p.
-        Come on modify me ! If you are running the development server,
-        you will see the changes take effect immediately
+      ul
+        li Zum selberbauen
+        li verschiedene Boards
+        li ESP-basiert
+
+    slide(enter='bounceInRight' leave='fadeOut')
+      h3 Hardware
+      h4 Sensoren
+      ul
+        li Temperatur
+        li Luftfeuchtigkeit
+        li Luftdruck
+        li Licht
+        li Schallpegel
+
+    slide(enter='bounceInRight' leave='fadeOut')
+      h3 Hardware
+      h4 Microcontroller
+      ul
+        li ESP8266
+        li ESP32
+        li Raspberry Pi
 
     slide(enter='bounceInRight' leave='fadeOut')
       h3 Ausblick
