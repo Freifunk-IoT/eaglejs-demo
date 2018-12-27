@@ -68,7 +68,7 @@
         li verschiedene Boards
         li ESP-basiert
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Hardware
       h4 Sensoren
       ul
@@ -78,7 +78,7 @@
         li Licht
         li Schallpegel
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Hardware
       h4 Microcontroller
       ul
