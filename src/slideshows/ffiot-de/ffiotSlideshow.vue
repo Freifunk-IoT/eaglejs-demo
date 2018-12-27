@@ -2,16 +2,18 @@
 #ffiotSlideshow
   .eg-slideshow
     slide
-      h1 Freifunk-IoT
-      h4 Was ist das?
-      h4 Wie geht das?
-      p @adnidor, @hibas123, @margau_me
+      center
+        img(src='./logo.png' width='50%')
+        h4 Was ist das?
+        h4 Wie geht das?
+        p adnidor, @hibas123, @margau_me
 
     slide(enter='fadeIn' leave='fadeOut')
+      center
       h3 Motivation
       h4.
         "Ich bin der Meinung, wir brauchen mehr interne Dienste"
-      p @adnidor, irgendwann im Sommer beim FFS
+      p adnidor, irgendwann im Sommer beim FFS
       h4 Wie kann Freifunk mehr sein, als "nur" Transit?
 
     slide(enter='fadeIn' leave='fadeOut')
@@ -27,6 +29,16 @@
         Dazu gehört sowohl Hardware mit Anleitungen, Workshops etc., als auch das Backend, welches Daten sammelt und bereitstellt.
 
     slide(enter='fadeIn' leave='fadeOut')
+      h3 Konzept
+      center
+        h4 Mehr Details:
+        p https://github.com/Freifunk-IoT/freifunk-iot-concept
+        img(src='./github.png')
+
+    slide(enter='fadeIn' leave='fadeOut')
+      h2 Das 'S' in IoT steht für Security
+
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Projektumfang
       h4 Hardware
       ul
@@ -35,7 +47,7 @@
         li Raspberry PI
         li ...
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Projektumfang
       h4 Backend
       ul
@@ -44,10 +56,7 @@
         li Authentication
         li Federation
 
-    slide(enter='bounceInRight' leave='fadeOut')
-      h2 Demo
-
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Projektumfang
       h4 Dokumentation
       ul
@@ -56,7 +65,10 @@
         li PCB's
         li Workshops
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
+      h2 Demo
+
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Backend
       h4 Data Sink
       ul
@@ -90,24 +102,55 @@
       //- h5 Wollen wir machen
       h1 BLOCKCHAIN!?
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Hardware
-      p.
-        Come on modify me ! If you are running the development server,
-        you will see the changes take effect immediately
+      ul
+        li Zum selberbauen
+        li verschiedene Boards
+        li ESP-basiert
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
+      h3 Hardware
+      h4 Sensoren
+      ul
+        li Temperatur
+        li Luftfeuchtigkeit
+        li Luftdruck
+        li Licht
+        li Schallpegel
+
+    slide(enter='fadeIn' leave='fadeOut')
+      h3 Hardware
+      h4 Microcontroller
+      ul
+        li ESP8266
+        li ESP32
+        li Raspberry Pi
+
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Ausblick
-      p.
-        Wo gehts hin?
+      ul
+        li Mehr Hardware
+        li Workshops
+        li Integration ins TTN
+        li Federation
+        li Ausbau des Backends
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
+      h2 Wer sind wir?
+      ul
+        li margau: @margau on Twitter (DECT: ????)
+        li Hibas123: @hibas123 on Twitter (DECT: ????)
+        li adnidor: @adnidor@chaos.social on Mastodon (DECT: 3677)
+
+    slide(enter='fadeIn' leave='fadeOut')
       h2 Mitmachen
       ul
-        li github.com/freifunk-IoT
+        li github.com/freifunk-iot
         li freifunk-iot@lists.freifunk-stuttgart.de
+        li www.freifunk-iot.de
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h2 Vielen Dank für eure Aufmerksamkeit!
       h3 Besucht uns an unserem Projekttisch!
 </template>
