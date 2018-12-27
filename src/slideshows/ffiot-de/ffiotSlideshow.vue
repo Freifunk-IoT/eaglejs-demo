@@ -156,16 +156,16 @@
 </template>
 
 <script>
-import eagle from "eagle.js";
+import eagle from 'eagle.js'
 export default {
   mixins: [eagle.slideshow],
   infos: {
     // These infos appear on the home page, below the slideshow's thumbnail
-    title: "Freifunk-IoT Vorstellung",
-    description: "Projektvorstellung & aktueller Stand (Deutsch)",
-    path: "ffiot-de"
+    title: 'Freifunk-IoT Vorstellung',
+    description: 'Projektvorstellung & aktueller Stand (Deutsch)',
+    path: 'ffiot-de'
   }
-};
+}
 </script>
 
 <style lang='scss'>
