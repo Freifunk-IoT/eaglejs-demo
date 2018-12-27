@@ -5,13 +5,13 @@
       h1 Freifunk-IoT
       h4 Was ist das?
       h4 Wie geht das?
-      p @adnidor, @hibas123, @margau_me
+      p adnidor, @hibas123, @margau_me
 
     slide(enter='fadeIn' leave='fadeOut')
       h3 Motivation
       h4.
         "Ich bin der Meinung, wir brauchen mehr interne Dienste"
-      p @adnidor, irgendwann im Sommer beim FFS
+      p adnidor, irgendwann im Sommer beim FFS
       h4 Wie kann Freifunk mehr sein, als "nur" Transit?
 
     slide(enter='fadeIn' leave='fadeOut')
