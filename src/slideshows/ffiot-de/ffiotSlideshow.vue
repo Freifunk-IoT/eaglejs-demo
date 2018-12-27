@@ -69,8 +69,12 @@
 
     slide(enter='fadeIn' leave='fadeOut')
       h3 Ausblick
-      p.
-        Wo gehts hin?
+      ul
+        li Mehr Hardware
+        li Workshops
+        li Integration ins TTN
+        li Federation
+        li Ausbau des Backends
 
     slide(enter='fadeIn' leave='fadeOut')
       h2 Mitmachen
