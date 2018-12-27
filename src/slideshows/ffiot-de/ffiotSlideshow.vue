@@ -36,6 +36,9 @@
         img(src='./github.png')
 
     slide(enter='fadeIn' leave='fadeOut')
+      h2 Das 'S' in IoT steht für Security
+
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Projektumfang
       h4 Hardware
       ul
