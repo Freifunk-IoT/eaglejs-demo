@@ -70,8 +70,37 @@
 
     slide(enter='fadeIn' leave='fadeOut')
       h3 Backend
-      p.
-        Fabian, du bist dran!
+      h4 Data Sink
+      ul
+        li Input für Sensor Daten
+        li Unterstützt mqtt, udp, http/https
+        li MQTT:
+          br
+          code { "sensor_123.temperature": 23, "sensor_123.humidity": 100, "timestamp_ms": 1527861014000 }
+        li WIP: Kann verschiedene Events auslösen
+
+    slide(enter='fadeIn' leave='fadeOut')
+      h3 Backend
+      h4 Data Access
+      ul
+        li Grafana Interface
+        li WIP: HTTP API
+
+    slide(enter='fadeIn' leave='fadeOut')
+      h3 Backend
+      h4 Authentication
+      ul
+        li
+          b OPTIONAL
+        li Registrieren von Sensoren
+        li Benutzen des Event systems
+        li Nicht öffentliche Daten
+
+    slide(enter='fadeIn' leave='fadeOut')
+      h3 Backend
+      h4 Federation
+      //- h5 Wollen wir machen
+      h1 BLOCKCHAIN!?
 
     slide(enter='fadeIn' leave='fadeOut')
       h3 Hardware
@@ -115,8 +144,8 @@
     slide(enter='fadeIn' leave='fadeOut')
       h2 Wer sind wir?
       ul
-        li margau: @margau on Twitter (DECT: ????)
-        li Hibas123: @hibas123 on Twitter (DECT: ????)
+        li margau: @margau on Twitter (DECT: 2102
+        li Hibas123: @hibas123 on Twitter (DECT: 2129)
         li adnidor: @adnidor@chaos.social on Mastodon (DECT: 3677)
 
     slide(enter='fadeIn' leave='fadeOut')
@@ -147,21 +176,21 @@ export default {
 <style lang='scss'>
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 #ffiotSlideshow {
-    .eg-slideshow {
-        font-family: 'Montserrat', sans-serif;
-        background-color: #eef;
-        .eg-slide {
-            .eg-slide-content {
-                width: 25em;
-                max-width: 80%;
-                margin: 0 auto;
-            }
-        }
-    }
-    .eg-slide-content {
+  .eg-slideshow {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eef;
+    .eg-slide {
+      .eg-slide-content {
         width: 25em;
         max-width: 80%;
         margin: 0 auto;
+      }
     }
+  }
+  .eg-slide-content {
+    width: 25em;
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
 </style>
