@@ -35,7 +35,7 @@
         li Raspberry PI
         li ...
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Projektumfang
       h4 Backend
       ul
@@ -44,7 +44,7 @@
         li Authentication
         li Federation
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Projektumfang
       h4 Dokumentation
       ul
@@ -53,32 +53,32 @@
         li PCB's
         li Workshops
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h2 Demo
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Backend
       p.
         Fabian, du bist dran!
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Hardware
       p.
         Come on modify me ! If you are running the development server,
         you will see the changes take effect immediately
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h3 Ausblick
       p.
         Wo gehts hin?
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h2 Mitmachen
       ul
         li github.com/freifunk-IoT
         li freifunk-iot@lists.freifunk-stuttgart.de
 
-    slide(enter='bounceInRight' leave='fadeOut')
+    slide(enter='fadeIn' leave='fadeOut')
       h2 Vielen Dank für eure Aufmerksamkeit!
       h3 Besucht uns an unserem Projekttisch!
 </template>
