@@ -139,8 +139,8 @@
     slide(enter='fadeIn' leave='fadeOut')
       h2 Wer sind wir?
       ul
-        li margau: @margau on Twitter (DECT: ????)
-        li Hibas123: @hibas123 on Twitter (DECT: ????)
+        li margau: @margau on Twitter (DECT: 2102
+        li Hibas123: @hibas123 on Twitter (DECT: 2129)
         li adnidor: @adnidor@chaos.social on Mastodon (DECT: 3677)
 
     slide(enter='fadeIn' leave='fadeOut')
@@ -156,16 +156,16 @@
 </template>
 
 <script>
-import eagle from 'eagle.js'
+import eagle from "eagle.js";
 export default {
   mixins: [eagle.slideshow],
   infos: {
     // These infos appear on the home page, below the slideshow's thumbnail
-    title: 'Freifunk-IoT Vorstellung',
-    description: 'Projektvorstellung & aktueller Stand (Deutsch)',
-    path: 'ffiot-de'
+    title: "Freifunk-IoT Vorstellung",
+    description: "Projektvorstellung & aktueller Stand (Deutsch)",
+    path: "ffiot-de"
   }
-}
+};
 </script>
 
 <style lang='scss'>
